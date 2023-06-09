@@ -6913,3 +6913,5 @@ Alternately, you can install this by running `pip install pycaret[models]`
                                       verbose=0, warm_start=False))],
          verbose=False)
 2023-06-09 11:58:11,615:INFO:save_model() successfully completed......................................
+2023-06-09 12:00:16,796:INFO:Initializing load_model()
+2023-06-09 12:00:16,797:INFO:load_model(model_name=Final ET Model 9 june 2023, platform=None, authentication=None, verbose=True)

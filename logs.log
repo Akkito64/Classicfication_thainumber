@@ -18028,3 +18028,335 @@ Alternately, you can install this by running `pip install pycaret[models]`
                      n_estimators=100, n_jobs=-1, oob_score=False,
                      random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
 2023-06-09 14:48:45,917:INFO:Checking exceptions
+2023-06-09 14:55:15,909:INFO:Initializing plot_model()
+2023-06-09 14:55:15,909:INFO:plot_model(plot=manifold, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:55:15,910:INFO:Checking exceptions
+2023-06-09 14:55:17,382:INFO:Initializing plot_model()
+2023-06-09 14:55:17,383:INFO:plot_model(plot=gain, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:55:17,383:INFO:Checking exceptions
+2023-06-09 14:55:17,403:INFO:Preloading libraries
+2023-06-09 14:55:17,412:INFO:Copying training dataset
+2023-06-09 14:55:17,412:INFO:Plot type: gain
+2023-06-09 14:55:17,413:INFO:Generating predictions / predict_proba on X_test
+2023-06-09 14:55:19,856:INFO:Initializing plot_model()
+2023-06-09 14:55:19,856:INFO:plot_model(plot=vc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:55:19,857:INFO:Checking exceptions
+2023-06-09 14:55:19,878:INFO:Preloading libraries
+2023-06-09 14:55:19,886:INFO:Copying training dataset
+2023-06-09 14:55:19,886:INFO:Plot type: vc
+2023-06-09 14:55:19,887:INFO:Determining param_name
+2023-06-09 14:55:19,887:INFO:param_name: max_depth
+2023-06-09 14:55:20,157:INFO:Fitting Model
+2023-06-09 14:55:24,287:INFO:Visual Rendered Successfully
+2023-06-09 14:55:24,841:INFO:plot_model() successfully completed......................................
+2023-06-09 14:55:28,483:INFO:Initializing plot_model()
+2023-06-09 14:55:28,483:INFO:plot_model(plot=calibration, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:55:28,483:INFO:Checking exceptions
+2023-06-09 14:55:30,561:INFO:Initializing plot_model()
+2023-06-09 14:55:30,561:INFO:plot_model(plot=vc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:55:30,561:INFO:Checking exceptions
+2023-06-09 14:55:30,582:INFO:Preloading libraries
+2023-06-09 14:55:30,590:INFO:Copying training dataset
+2023-06-09 14:55:30,590:INFO:Plot type: vc
+2023-06-09 14:55:30,591:INFO:Determining param_name
+2023-06-09 14:55:30,591:INFO:param_name: max_depth
+2023-06-09 14:55:30,858:INFO:Fitting Model
+2023-06-09 14:55:32,976:INFO:Visual Rendered Successfully
+2023-06-09 14:55:33,229:INFO:plot_model() successfully completed......................................
+2023-06-09 14:55:43,546:INFO:Initializing plot_model()
+2023-06-09 14:55:43,547:INFO:plot_model(plot=class_report, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:55:43,547:INFO:Checking exceptions
+2023-06-09 14:55:43,567:INFO:Preloading libraries
+2023-06-09 14:55:43,576:INFO:Copying training dataset
+2023-06-09 14:55:43,576:INFO:Plot type: class_report
+2023-06-09 14:55:43,842:INFO:Fitting Model
+2023-06-09 14:55:43,843:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but ExtraTreesClassifier was fitted with feature names
+  warnings.warn(
+
+2023-06-09 14:55:43,843:INFO:Scoring test/hold-out set
+2023-06-09 14:55:44,147:INFO:Visual Rendered Successfully
+2023-06-09 14:55:44,381:INFO:plot_model() successfully completed......................................
+2023-06-09 14:56:10,231:INFO:Initializing plot_model()
+2023-06-09 14:56:10,231:INFO:plot_model(plot=class_report, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:10,231:INFO:Checking exceptions
+2023-06-09 14:56:10,254:INFO:Preloading libraries
+2023-06-09 14:56:10,264:INFO:Copying training dataset
+2023-06-09 14:56:10,264:INFO:Plot type: class_report
+2023-06-09 14:56:10,538:INFO:Fitting Model
+2023-06-09 14:56:10,538:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but ExtraTreesClassifier was fitted with feature names
+  warnings.warn(
+
+2023-06-09 14:56:10,539:INFO:Scoring test/hold-out set
+2023-06-09 14:56:10,850:INFO:Visual Rendered Successfully
+2023-06-09 14:56:11,093:INFO:plot_model() successfully completed......................................
+2023-06-09 14:56:23,571:INFO:Initializing plot_model()
+2023-06-09 14:56:23,571:INFO:plot_model(plot=learning, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:23,571:INFO:Checking exceptions
+2023-06-09 14:56:23,592:INFO:Preloading libraries
+2023-06-09 14:56:23,602:INFO:Copying training dataset
+2023-06-09 14:56:23,602:INFO:Plot type: learning
+2023-06-09 14:56:23,865:INFO:Fitting Model
+2023-06-09 14:56:25,997:INFO:Visual Rendered Successfully
+2023-06-09 14:56:26,240:INFO:plot_model() successfully completed......................................
+2023-06-09 14:56:29,180:INFO:Initializing plot_model()
+2023-06-09 14:56:29,181:INFO:plot_model(plot=boundary, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:29,181:INFO:Checking exceptions
+2023-06-09 14:56:29,201:INFO:Preloading libraries
+2023-06-09 14:56:29,210:INFO:Copying training dataset
+2023-06-09 14:56:29,210:INFO:Plot type: boundary
+2023-06-09 14:56:29,352:INFO:Fitting StandardScaler()
+2023-06-09 14:56:29,378:INFO:Fitting PCA()
+2023-06-09 14:56:29,525:INFO:Fitting Model
+2023-06-09 14:56:30,176:WARNING:c:\Users\User\Downloads\solution\.conda\lib\site-packages\yellowbrick\contrib\classifier\boundaries.py:467: UserWarning: You passed a edgecolor/edgecolors ('black') for an unfilled marker ('+').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  self.ax.scatter(
+
+2023-06-09 14:56:31,036:INFO:Visual Rendered Successfully
+2023-06-09 14:56:31,327:INFO:plot_model() successfully completed......................................
+2023-06-09 14:56:37,791:INFO:Initializing plot_model()
+2023-06-09 14:56:37,792:INFO:plot_model(plot=manifold, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:37,792:INFO:Checking exceptions
+2023-06-09 14:56:38,912:INFO:Initializing plot_model()
+2023-06-09 14:56:38,912:INFO:plot_model(plot=learning, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:38,912:INFO:Checking exceptions
+2023-06-09 14:56:38,933:INFO:Preloading libraries
+2023-06-09 14:56:38,941:INFO:Copying training dataset
+2023-06-09 14:56:38,941:INFO:Plot type: learning
+2023-06-09 14:56:39,211:INFO:Fitting Model
+2023-06-09 14:56:41,362:INFO:Visual Rendered Successfully
+2023-06-09 14:56:41,617:INFO:plot_model() successfully completed......................................
+2023-06-09 14:56:42,979:INFO:Initializing plot_model()
+2023-06-09 14:56:42,979:INFO:plot_model(plot=gain, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:42,979:INFO:Checking exceptions
+2023-06-09 14:56:43,000:INFO:Preloading libraries
+2023-06-09 14:56:43,008:INFO:Copying training dataset
+2023-06-09 14:56:43,008:INFO:Plot type: gain
+2023-06-09 14:56:43,009:INFO:Generating predictions / predict_proba on X_test
+2023-06-09 14:56:45,124:INFO:Initializing plot_model()
+2023-06-09 14:56:45,124:INFO:plot_model(plot=lift, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:45,124:INFO:Checking exceptions
+2023-06-09 14:56:45,144:INFO:Preloading libraries
+2023-06-09 14:56:45,154:INFO:Copying training dataset
+2023-06-09 14:56:45,154:INFO:Plot type: lift
+2023-06-09 14:56:45,154:INFO:Generating predictions / predict_proba on X_test
+2023-06-09 14:56:46,560:INFO:Initializing plot_model()
+2023-06-09 14:56:46,560:INFO:plot_model(plot=rfe, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:46,560:INFO:Checking exceptions
+2023-06-09 14:56:52,888:INFO:Initializing plot_model()
+2023-06-09 14:56:52,888:INFO:plot_model(plot=auc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:52,888:INFO:Checking exceptions
+2023-06-09 14:56:52,909:INFO:Preloading libraries
+2023-06-09 14:56:52,918:INFO:Copying training dataset
+2023-06-09 14:56:52,918:INFO:Plot type: auc
+2023-06-09 14:56:53,191:INFO:Fitting Model
+2023-06-09 14:56:53,192:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but ExtraTreesClassifier was fitted with feature names
+  warnings.warn(
+
+2023-06-09 14:56:53,192:INFO:Scoring test/hold-out set
+2023-06-09 14:56:53,439:INFO:Visual Rendered Successfully
+2023-06-09 14:56:53,671:INFO:plot_model() successfully completed......................................
+2023-06-09 14:56:54,440:INFO:Initializing plot_model()
+2023-06-09 14:56:54,440:INFO:plot_model(plot=learning, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:56:54,440:INFO:Checking exceptions
+2023-06-09 14:56:54,460:INFO:Preloading libraries
+2023-06-09 14:56:54,469:INFO:Copying training dataset
+2023-06-09 14:56:54,469:INFO:Plot type: learning
+2023-06-09 14:56:54,743:INFO:Fitting Model
+2023-06-09 14:56:56,925:INFO:Visual Rendered Successfully
+2023-06-09 14:56:57,167:INFO:plot_model() successfully completed......................................
+2023-06-09 14:57:26,914:INFO:Initializing plot_model()
+2023-06-09 14:57:26,914:INFO:plot_model(plot=learning Curve, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:57:26,914:INFO:Checking exceptions
+2023-06-09 14:57:35,645:INFO:Initializing plot_model()
+2023-06-09 14:57:35,645:INFO:plot_model(plot=lC, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:57:35,645:INFO:Checking exceptions
+2023-06-09 14:57:39,628:INFO:Initializing plot_model()
+2023-06-09 14:57:39,628:INFO:plot_model(plot=lc, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:57:39,628:INFO:Checking exceptions
+2023-06-09 14:57:58,334:INFO:Initializing plot_model()
+2023-06-09 14:57:58,334:INFO:plot_model(plot=learning_curve, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:57:58,334:INFO:Checking exceptions
+2023-06-09 14:58:31,409:INFO:Initializing plot_model()
+2023-06-09 14:58:31,409:INFO:plot_model(plot=error, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:58:31,409:INFO:Checking exceptions
+2023-06-09 14:58:31,431:INFO:Preloading libraries
+2023-06-09 14:58:31,440:INFO:Copying training dataset
+2023-06-09 14:58:31,440:INFO:Plot type: error
+2023-06-09 14:58:31,717:INFO:Fitting Model
+2023-06-09 14:58:31,717:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but ExtraTreesClassifier was fitted with feature names
+  warnings.warn(
+
+2023-06-09 14:58:31,717:INFO:Scoring test/hold-out set
+2023-06-09 14:58:32,069:INFO:Visual Rendered Successfully
+2023-06-09 14:58:32,309:INFO:plot_model() successfully completed......................................
+2023-06-09 14:58:41,069:INFO:Initializing plot_model()
+2023-06-09 14:58:41,069:INFO:plot_model(plot=calibration, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:58:41,069:INFO:Checking exceptions
+2023-06-09 14:58:43,814:INFO:Initializing plot_model()
+2023-06-09 14:58:43,814:INFO:plot_model(plot=learning, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:58:43,814:INFO:Checking exceptions
+2023-06-09 14:58:43,835:INFO:Preloading libraries
+2023-06-09 14:58:43,843:INFO:Copying training dataset
+2023-06-09 14:58:43,843:INFO:Plot type: learning
+2023-06-09 14:58:44,115:INFO:Fitting Model
+2023-06-09 14:58:46,383:INFO:Visual Rendered Successfully
+2023-06-09 14:58:46,624:INFO:plot_model() successfully completed......................................
+2023-06-09 14:59:02,212:INFO:Initializing evaluate_model()
+2023-06-09 14:59:02,212:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2023-06-09 14:59:02,239:INFO:Initializing plot_model()
+2023-06-09 14:59:02,239:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EEF00E0040>, system=True)
+2023-06-09 14:59:02,239:INFO:Checking exceptions
+2023-06-09 14:59:02,261:INFO:Preloading libraries
+2023-06-09 14:59:02,270:INFO:Copying training dataset
+2023-06-09 14:59:02,270:INFO:Plot type: pipeline
+2023-06-09 14:59:02,336:INFO:Visual Rendered Successfully
+2023-06-09 14:59:02,593:INFO:plot_model() successfully completed......................................

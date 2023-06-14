@@ -70,7 +70,9 @@
 
 
 
-
+## Reference
+1. https://towardsdatascience.com/introduction-to-binary-classification-with-pycaret-a37b3e89ad8d
+2. https://www.kaggle.com/code/maryamnoroozi68/rice-classification-by-using-cnn/notebook
 
 
 

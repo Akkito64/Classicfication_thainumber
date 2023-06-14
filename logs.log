@@ -29695,3 +29695,216 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-06-14 20:14:59,684:INFO:save_model() successfully completed......................................
 2023-06-14 20:14:59,851:INFO:Initializing load_model()
 2023-06-14 20:14:59,851:INFO:load_model(model_name=path_to_save_model, platform=None, authentication=None, verbose=True)
+2023-06-14 20:50:11,971:INFO:Initializing create_model()
+2023-06-14 20:50:11,971:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, estimator=lr, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-06-14 20:50:11,972:INFO:Checking exceptions
+2023-06-14 20:50:12,010:INFO:Importing libraries
+2023-06-14 20:50:12,011:INFO:Copying training dataset
+2023-06-14 20:50:12,017:INFO:Defining folds
+2023-06-14 20:50:12,017:INFO:Declaring metric variables
+2023-06-14 20:50:12,021:INFO:Importing untrained model
+2023-06-14 20:50:12,024:INFO:Logistic Regression Imported successfully
+2023-06-14 20:50:12,032:INFO:Starting cross validation
+2023-06-14 20:50:12,036:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-14 20:50:22,314:INFO:Calculating mean and std
+2023-06-14 20:50:22,316:INFO:Creating metrics dataframe
+2023-06-14 20:50:22,322:INFO:Finalizing model
+2023-06-14 20:50:23,421:INFO:Uploading results into container
+2023-06-14 20:50:23,422:INFO:Uploading model into container now
+2023-06-14 20:50:23,435:INFO:_master_model_container: 18
+2023-06-14 20:50:23,435:INFO:_display_container: 6
+2023-06-14 20:50:23,436:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-06-14 20:50:23,436:INFO:create_model() successfully completed......................................
+2023-06-14 20:50:41,925:INFO:Initializing tune_model()
+2023-06-14 20:50:41,926:INFO:tune_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=5, round=4, n_iter=10, custom_grid=None, optimize=F1, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>)
+2023-06-14 20:50:41,926:INFO:Checking exceptions
+2023-06-14 20:50:41,963:INFO:Copying training dataset
+2023-06-14 20:50:41,968:INFO:Checking base model
+2023-06-14 20:50:41,968:INFO:Base model : Logistic Regression
+2023-06-14 20:50:41,972:INFO:Declaring metric variables
+2023-06-14 20:50:41,975:INFO:Defining Hyperparameters
+2023-06-14 20:50:42,122:INFO:Tuning with n_jobs=-1
+2023-06-14 20:50:42,122:INFO:Initializing RandomizedSearchCV
+2023-06-14 20:51:20,195:INFO:best_params: {'actual_estimator__class_weight': 'balanced', 'actual_estimator__C': 0.049}
+2023-06-14 20:51:20,197:INFO:Hyperparameter search completed
+2023-06-14 20:51:20,197:INFO:SubProcess create_model() called ==================================
+2023-06-14 20:51:20,198:INFO:Initializing create_model()
+2023-06-14 20:51:20,198:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=5, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000232B7921E10>, model_only=True, return_train_score=False, kwargs={'class_weight': 'balanced', 'C': 0.049})
+2023-06-14 20:51:20,198:INFO:Checking exceptions
+2023-06-14 20:51:20,198:INFO:Importing libraries
+2023-06-14 20:51:20,198:INFO:Copying training dataset
+2023-06-14 20:51:20,204:INFO:Defining folds
+2023-06-14 20:51:20,204:INFO:Declaring metric variables
+2023-06-14 20:51:20,207:INFO:Importing untrained model
+2023-06-14 20:51:20,208:INFO:Declaring custom model
+2023-06-14 20:51:20,211:INFO:Logistic Regression Imported successfully
+2023-06-14 20:51:20,218:INFO:Starting cross validation
+2023-06-14 20:51:20,222:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=None, shuffle=False), n_jobs=-1
+2023-06-14 20:51:23,392:INFO:Calculating mean and std
+2023-06-14 20:51:23,393:INFO:Creating metrics dataframe
+2023-06-14 20:51:23,399:INFO:Finalizing model
+2023-06-14 20:51:24,530:INFO:Uploading results into container
+2023-06-14 20:51:24,532:INFO:Uploading model into container now
+2023-06-14 20:51:24,532:INFO:_master_model_container: 19
+2023-06-14 20:51:24,532:INFO:_display_container: 7
+2023-06-14 20:51:24,533:INFO:LogisticRegression(C=0.049, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-06-14 20:51:24,533:INFO:create_model() successfully completed......................................
+2023-06-14 20:51:24,675:INFO:SubProcess create_model() end ==================================
+2023-06-14 20:51:24,675:INFO:choose_better activated
+2023-06-14 20:51:24,679:INFO:SubProcess create_model() called ==================================
+2023-06-14 20:51:24,679:INFO:Initializing create_model()
+2023-06-14 20:51:24,680:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=5, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-06-14 20:51:24,680:INFO:Checking exceptions
+2023-06-14 20:51:24,682:INFO:Importing libraries
+2023-06-14 20:51:24,682:INFO:Copying training dataset
+2023-06-14 20:51:24,688:INFO:Defining folds
+2023-06-14 20:51:24,688:INFO:Declaring metric variables
+2023-06-14 20:51:24,688:INFO:Importing untrained model
+2023-06-14 20:51:24,688:INFO:Declaring custom model
+2023-06-14 20:51:24,689:INFO:Logistic Regression Imported successfully
+2023-06-14 20:51:24,689:INFO:Starting cross validation
+2023-06-14 20:51:24,692:INFO:Cross validating with StratifiedKFold(n_splits=5, random_state=None, shuffle=False), n_jobs=-1
+2023-06-14 20:51:28,002:INFO:Calculating mean and std
+2023-06-14 20:51:28,002:INFO:Creating metrics dataframe
+2023-06-14 20:51:28,004:INFO:Finalizing model
+2023-06-14 20:51:29,108:INFO:Uploading results into container
+2023-06-14 20:51:29,109:INFO:Uploading model into container now
+2023-06-14 20:51:29,109:INFO:_master_model_container: 20
+2023-06-14 20:51:29,109:INFO:_display_container: 8
+2023-06-14 20:51:29,109:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-06-14 20:51:29,109:INFO:create_model() successfully completed......................................
+2023-06-14 20:51:29,224:INFO:SubProcess create_model() end ==================================
+2023-06-14 20:51:29,225:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for F1 is 0.9225
+2023-06-14 20:51:29,225:INFO:LogisticRegression(C=0.049, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for F1 is 0.9225
+2023-06-14 20:51:29,225:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2023-06-14 20:51:29,225:INFO:choose_better completed
+2023-06-14 20:51:29,226:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2023-06-14 20:51:29,235:INFO:_master_model_container: 20
+2023-06-14 20:51:29,235:INFO:_display_container: 7
+2023-06-14 20:51:29,236:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-06-14 20:51:29,236:INFO:tune_model() successfully completed......................................
+2023-06-14 20:51:41,278:INFO:Initializing plot_model()
+2023-06-14 20:51:41,279:INFO:plot_model(plot=auc, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, system=True)
+2023-06-14 20:51:41,279:INFO:Checking exceptions
+2023-06-14 20:51:41,283:INFO:Preloading libraries
+2023-06-14 20:51:41,284:INFO:Copying training dataset
+2023-06-14 20:51:41,284:INFO:Plot type: auc
+2023-06-14 20:51:41,568:INFO:Fitting Model
+2023-06-14 20:51:41,568:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2023-06-14 20:51:41,568:INFO:Scoring test/hold-out set
+2023-06-14 20:51:41,787:INFO:Visual Rendered Successfully
+2023-06-14 20:51:41,908:INFO:plot_model() successfully completed......................................
+2023-06-14 20:51:43,952:INFO:Initializing plot_model()
+2023-06-14 20:51:43,952:INFO:plot_model(plot=pr, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, system=True)
+2023-06-14 20:51:43,952:INFO:Checking exceptions
+2023-06-14 20:51:43,956:INFO:Preloading libraries
+2023-06-14 20:51:43,957:INFO:Copying training dataset
+2023-06-14 20:51:43,957:INFO:Plot type: pr
+2023-06-14 20:51:44,226:INFO:Fitting Model
+2023-06-14 20:51:44,732:INFO:Scoring test/hold-out set
+2023-06-14 20:51:45,002:INFO:Visual Rendered Successfully
+2023-06-14 20:51:45,122:INFO:plot_model() successfully completed......................................
+2023-06-14 20:51:46,759:INFO:Initializing plot_model()
+2023-06-14 20:51:46,759:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, system=True)
+2023-06-14 20:51:46,759:INFO:Checking exceptions
+2023-06-14 20:51:46,764:INFO:Preloading libraries
+2023-06-14 20:51:46,765:INFO:Copying training dataset
+2023-06-14 20:51:46,765:INFO:Plot type: feature
+2023-06-14 20:51:47,081:INFO:Visual Rendered Successfully
+2023-06-14 20:51:47,203:INFO:plot_model() successfully completed......................................
+2023-06-14 20:51:48,562:INFO:Initializing plot_model()
+2023-06-14 20:51:48,562:INFO:plot_model(plot=confusion_matrix, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, system=True)
+2023-06-14 20:51:48,562:INFO:Checking exceptions
+2023-06-14 20:51:48,567:INFO:Preloading libraries
+2023-06-14 20:51:48,567:INFO:Copying training dataset
+2023-06-14 20:51:48,567:INFO:Plot type: confusion_matrix
+2023-06-14 20:51:48,842:INFO:Fitting Model
+2023-06-14 20:51:48,842:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2023-06-14 20:51:48,842:INFO:Scoring test/hold-out set
+2023-06-14 20:51:49,123:INFO:Visual Rendered Successfully
+2023-06-14 20:51:49,252:INFO:plot_model() successfully completed......................................
+2023-06-14 20:51:50,681:INFO:Initializing predict_model()
+2023-06-14 20:51:50,682:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000232B7A69FC0>)
+2023-06-14 20:51:50,682:INFO:Checking exceptions
+2023-06-14 20:51:50,682:INFO:Preloading libraries
+2023-06-14 20:51:52,172:INFO:Initializing plot_model()
+2023-06-14 20:51:52,172:INFO:plot_model(plot=class_report, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000232B3DF5450>, system=True)
+2023-06-14 20:51:52,173:INFO:Checking exceptions
+2023-06-14 20:51:52,177:INFO:Preloading libraries
+2023-06-14 20:51:52,178:INFO:Copying training dataset
+2023-06-14 20:51:52,178:INFO:Plot type: class_report
+2023-06-14 20:51:52,452:INFO:Fitting Model
+2023-06-14 20:51:52,452:WARNING:C:\Users\User\AppData\Roaming\Python\Python310\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+
+2023-06-14 20:51:52,452:INFO:Scoring test/hold-out set
+2023-06-14 20:51:52,715:INFO:Visual Rendered Successfully
+2023-06-14 20:51:52,836:INFO:plot_model() successfully completed......................................
